@@ -12,7 +12,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/javascript/script.js"></script>
 </head>
 
 <body>
@@ -73,7 +74,7 @@
 
             <div class="carousel-item active">
               <div class="card">
-                <img src="Central Plaza.jpg" alt="image" class="card-img-top">
+                <img src="/images/Central Plaza.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Central Plaza</h4>
                 </div>
@@ -82,7 +83,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Pacific Towers Hotel.jpg" alt="image" class="card-img-top">
+                <img src="/images/Pacific Towers Hotel.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Pacific Towers Hotel</h4>
                 </div>
@@ -91,7 +92,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Sky Center Complex.jpg" alt="image" class="card-img-top">
+                <img src="/images/Sky Center Complex.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Sky Center Complex</h4>
                 </div>
@@ -100,7 +101,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Sea View Tavern.jpg" alt="image" class="card-img-top">
+                <img src="/images/Sea View Tavern.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Sea View Tavern</h4>
                 </div>
@@ -109,7 +110,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Ashby Castle.jpg" alt="image" class="card-img-top">
+                <img src="/images/Ashby Castle.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Ashby Castle</h4>
                 </div>
@@ -118,7 +119,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Fawlty Towers.jpg" alt="image" class="card-img-top">
+                <img src="/images/Fawlty Towers.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Fawlty Towers</h4>
                 </div>
@@ -127,7 +128,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Hilltop Mansion.jpg" alt="image" class="card-img-top">
+                <img src="/images/Hilltop Mansion.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Hilltop Mansion</h4>
                 </div>
@@ -136,7 +137,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Haslegrave Hotel.jpg" alt="image" class="card-img-top">
+                <img src="/images/Haslegrave Hotel.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Haslegrave Hotel</h4>
                 </div>
@@ -145,7 +146,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Forest Inn.jpg" alt="image" class="card-img-top">
+                <img src="/images/Forest Inn.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Forest Inn</h4>
                 </div>
@@ -154,7 +155,7 @@
 
             <div class="carousel-item">
               <div class="card">
-                <img src="Southwestern Estate.jpg" alt="image" class="card-img-top">
+                <img src="/images/Southwestern Estate.jpg" alt="image" class="card-img-top">
                 <div class="card-body">
                   <h4>Southwestern Estate</h4>
                 </div>
@@ -268,9 +269,6 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-  <!-- javascript file -->
-  <script src="script.js"></script>
 </body>
 
 </html>
