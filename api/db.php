@@ -8,7 +8,7 @@
 
 $servername = "rvis.ddns.net:13306";
 $username = "nvaria";
-$password = "Varia0918";
+$password = "Belmont47";
 $dbname = "coa123wdb";
 
 //gather variables from the script.js file

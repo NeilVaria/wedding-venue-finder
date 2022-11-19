@@ -168,11 +168,6 @@ function makeCard(data) {
         //when its a week-day
         totalPrice = parseInt(weekday_price) + parseInt(cost) * parseInt(form.party_size.value); //calculate total cost
       }
-      if (licensed === 0) {
-        licensed = "Yes";
-      } else {
-        licensed = "No";
-      }
       const card = document.createElement("div"); //create the card with all of the information from the db
       card.classList = "card-body";
       const content = `
