@@ -136,6 +136,7 @@ input_form.addEventListener("submit", function submitFunction(e) {
     data: json_form,
     success: function (data) {
       //
+      console.log(data);
       makeCard(data); //function to create the cards is called
     },
     error: function (e) {

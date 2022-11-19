@@ -4,13 +4,6 @@
 // the range date functionality works and the website can display all of the venues that
 // are availible for each date in the range from the user input. 
 
-
-
-$servername = "rvis.ddns.net:13306";
-$username = "nvaria";
-$password = "Belmont47";
-$dbname = "coa123wdb";
-
 //gather variables from the script.js file
 $firstdate = $_REQUEST['first_date'];
 $last_date = $_REQUEST['last_date'];
@@ -18,9 +11,16 @@ $party_size = $_REQUEST['party_size'];
 $catering_grade = $_REQUEST['catering_grade'];
 $list_of_dates = explode(',', $_REQUEST['list_of_dates']);
 
-//connect to the database
-$conn = new mysqli($servername, $username, $password, $dbname);
+//parses ini file containing database credentials
+$configArray = parse_ini_file("dbConfig.ini");
+
+$servername = $configArray['server'];
+$username = $configArray['username'];
+$password = $configArray['password'];
+$dbname = $configArray['databaseName'];
+
 // Check connection
+$conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
