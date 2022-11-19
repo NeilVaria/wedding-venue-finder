@@ -6,9 +6,9 @@
 
 
 
-$servername = "sci-mysql";
-$username = "coa123wuser";
-$password = "grt64dkh!@2FD";
+$servername = "rvis.ddns.net:13306";
+$username = "nvaria";
+$password = "Varia0918";
 $dbname = "coa123wdb";
 
 //gather variables from the script.js file
