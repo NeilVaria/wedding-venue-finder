@@ -1,6 +1,3 @@
-<?php
-define('IN_MY_PROJECT', true);
-?>
 <!DOCTYPE html>
 <html lang="en">
 
