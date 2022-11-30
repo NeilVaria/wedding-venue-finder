@@ -34,6 +34,8 @@
   </p>
 </div>
 
+<br />
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -51,6 +53,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+<br />
 
 ## About The Project
 
