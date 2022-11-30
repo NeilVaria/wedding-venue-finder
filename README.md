@@ -81,7 +81,7 @@ MySQL database is hosted on a personal server at home, managed with mySQL workbe
 
 
 <p align="center">
-  <img src="image/screenshot_1.png" alt="search form image"/>
+  <img src="images/screenshot_1.png" alt="search form image"/>
 </p>
 <br />
 
@@ -106,7 +106,7 @@ The search form has form validation for the following:
 If there are no results for that day the following is displayed:
 
 <p align="center">
-  <img src="image/screenshot_3.png" alt="no result image"/>
+  <img src="images/screenshot_3.png" alt="no result image"/>
 </p>
 <br />
 <br />
@@ -114,7 +114,7 @@ If there are no results for that day the following is displayed:
 Otherwise results are shown in cards:
 
 <p align="center">
-  <img src="image/screenshot_2.png" alt="results image"/>
+  <img src="images/screenshot_2.png" alt="results image"/>
 </p>
 <br />
 <br />
