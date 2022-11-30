@@ -31,7 +31,7 @@
 <h3 align="center">Wedding Venue Finder</h3>
 
   <p align="center">
-    Full-stack wedding venue finder application that allows for search within a given range of dates.
+    Full-stack wedding venue finder application that allows to search for avaliable venues within a given range of dates.
   </p>
 </div>
 
@@ -58,9 +58,9 @@
 [![Product Name Screen Shot][product-screenshot]](https://wedding-finder.neilvaria.com)
 Coursework that acheived an 88% score.
 
-Hosted on Vercel. Had to configure Vercel and project to run PHP on server end as is not natively supported by Vercel. Compressed images, as to not exceed free file size limit of Vercel and to allow page to load quicker. Using subdomain of neilvaria.com, where my portfolio is hosted.
+Hosted on Vercel. Had to configure Vercel and project to run PHP on back-end as PHP not natively supported by Vercel. Compressed all the images, so that the free file size limit of Vercel is not exceeded and to allow page to load quicker. Using subdomain of neilvaria.com, where my portfolio is hosted.
 
-Written in PHP and javascript. Using bootstrap for frontend. Ajax is used to dynamically update content when querying the database for results.
+Written in PHP and javascript. Using bootstrap for front-end. Ajax is used to dynamically update content when querying the database for results.
 
 MySQL database is hosted on a personal server at home, managed with mySQL workbench. Wrote a python program to generate more dates avaliable for booking from 2022-2025 as database originally used only contained data up until 2022.
 
@@ -79,29 +79,32 @@ MySQL database is hosted on a personal server at home, managed with mySQL workbe
 
 ### Using the search form to generate results.
 
+
 ![search form image](images/screenshot_1.png)
 
 The search form has form validation for the following:
 
 - Start Date
-  - Input must be filled
-  - Date must be current date or after current date
-  - Cannot be later than end date
+  - *Input must be filled*
+  - *Date must be current date or after current date*
+  - *Cannot be later than end date*
 - End Date
-  - Date must be within 7 days of start date
-  - Date cannot be earlier than start date
+  - *Date must be within 7 days of start date*
+  - *Date cannot be earlier than start date*
 - Party Size
-  - Input must be filled
-  - Party size must be a positive integer
-  - Party size must be less than or equal to 1000
+  - *Input must be filled*
+  - *Party size must be a positive integer*
+  - *Party size must be less than or equal to 1000*
 - Catering Grade
-  - Input must be filled
+  - *Input must be filled*
 
 ### When all validations are satisfied results are generated in the following format:
+
 
 If there are no results for that day the following is displayed:
 
 ![no result image](images/screenshot_3.png)
+
 
 Otherwise results are shown in cards:
 
@@ -110,23 +113,23 @@ Otherwise results are shown in cards:
 Data Shown:
 
 - Date
-  - The date that venue is avaliable on in format (day year-mm--dd)
+  - *The date that venue is avaliable on in format (day year-mm--dd)*
 - Image of Venue
 - Capacity
-  - Maximum amount of people that venue allows
+  - *Maximum amount of people that venue allows*
 - Licensed
-  - Displays 0 if venue is not licenced and 1 if it is (should have been changed to yes or no to be more user friendly)
+  - *Displays 0 if venue is not licenced and 1 if it is (should have been changed to yes or no to be more user friendly)*
 - Catering Cost
-  - The cost per person per day for catering
+  - *The cost per person per day for catering*
 - Weekday Price
-  - The price of the venue per day during the week
+  - *The price of the venue per day during the week*
 - Weekend Price
-  - The price of the venue per day during the weekend
+  - *The price of the venue per day during the weekend*
 - Total Bookings
-  - The number of times that venue has been booked before
+  - *The number of times that venue has been booked before*
 - Total Price
-  - The total cost of booking that venue on that day
-  - Calculated by multiplying catering cost by party size submitted and adding the price depending on if its a weekday or weekend
+  - *The total cost of booking that venue on that day*
+  - *Calculated by multiplying catering cost by party size submitted and adding the price depending on if its a weekday or weekend*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +145,7 @@ Distributed under the Apache License. See `LICENSE.md` for more information.
 
 ## Contact
 
-Your Name - neilvaria@gmail.com
+Neil Varia - neilvaria@gmail.com
 
 Project Link: [https://github.com/NeilVaria/wedding-venue-finder](https://github.com/NeilVaria/wedding-venue-finder)
 
