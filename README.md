@@ -56,9 +56,9 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://wedding-finder.neilvaria.com)
-Coursework that acheived an 88% score.
-Hosted on Vercel. Had to configure Vercel and project to run PHP on server end as is not natively supported by Vercel. Compressed images, as to not exceed free file size limit of Vercel and to allow page to load quicker. Using subdomain of neilvaria.com, where my portfolio is hosted.
-Written in PHP and javascript. Using bootstrap for frontend. Ajax is used to dynamically update content when querying the database for results.
+Coursework that acheived an 88% score.  
+Hosted on Vercel. Had to configure Vercel and project to run PHP on server end as is not natively supported by Vercel. Compressed images, as to not exceed free file size limit of Vercel and to allow page to load quicker. Using subdomain of neilvaria.com, where my portfolio is hosted.  
+Written in PHP and javascript. Using bootstrap for frontend. Ajax is used to dynamically update content when querying the database for results.  
 MySQL database is hosted on a personal server at home, managed with mySQL workbench. Wrote a python program to generate more dates avaliable for booking from 2022-2025 as database originally used only contained data up until 2022.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -78,18 +78,31 @@ MySQL database is hosted on a personal server at home, managed with mySQL workbe
 
 ![search form image](images/screenshot_1.png)
 Form Validation for:
--Start Date -_Input must be filled_ -_Date must be current date or after current date_ -_Cannot be later than end date_
--End Date -_Date must be within 7 days of start date_ -_Date cannot be earlier than start date_
--Party Size -_Input must be filled_ -_Party size must be a positive integer_ -_Party size must be less than or equal to 1000_
--Catering Grade- -_Input must be filled_
+
+- Start Date
+  - Input must be filled
+  - Date must be current date or after current date
+  - Cannot be later than end date
+- End Date
+  - Date must be within 7 days of start date
+  - Date cannot be earlier than start date
+- Party Size
+  - Input must be filled
+  - Party size must be a positive integer
+  - Party size must be less than or equal to 1000
+- Catering Grade
+  - Input must be filled
 
 ### When all validations are satisfied results are generated in the following format:
 
-If there are no results for the day the following is displayed:
+If there are no results for that day the following is displayed:
+
 ![no result image](images/screenshot_3.png)
 
 Otherwise results are shown in cards:
-![result image image](images/screenshot_3.png)
+
+![result image image](images/screenshot_2.png)
+
 Data Shown:
 
 - Date
