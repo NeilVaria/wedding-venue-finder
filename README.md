@@ -102,13 +102,12 @@ The search form has form validation for the following:
 
 ### When all validations are satisfied results are generated in the following format:
 
-
+<br />
 If there are no results for that day the following is displayed:
 
 <p align="center">
   <img src="images/screenshot_3.png" alt="no result image"/>
 </p>
-<br />
 <br />
 
 Otherwise results are shown in cards:
@@ -116,7 +115,6 @@ Otherwise results are shown in cards:
 <p align="center">
   <img src="images/screenshot_2.png" alt="results image"/>
 </p>
-<br />
 <br />
 
 Data Shown:
