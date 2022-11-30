@@ -2,3 +2,6 @@
 .vscode
 api/dbConfig.ini
 /.prettierignore
+/package-lock.json
+/package.json
+/node_modules
