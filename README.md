@@ -81,7 +81,7 @@ MySQL database is hosted on a personal server at home, managed with mySQL workbe
 
 
 ![search form image](images/screenshot_1.png)
-
+<br />
 The search form has form validation for the following:
 
 - Start Date
@@ -104,12 +104,12 @@ The search form has form validation for the following:
 If there are no results for that day the following is displayed:
 
 ![no result image](images/screenshot_3.png)
-
+<br />
 
 Otherwise results are shown in cards:
 
 ![result image image](images/screenshot_2.png)
-
+<br />
 Data Shown:
 
 - Date
