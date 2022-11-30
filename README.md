@@ -119,7 +119,6 @@ Otherwise results are shown in cards:
 </p>
 <br />
 
-The card data shown:
 - Date
   - *The date that venue is avaliable on in format (day year-mm--dd)*
 - Image of Venue
