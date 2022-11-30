@@ -19,10 +19,16 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<h3 align="center">wedding venue finder</h3>
+<!-- PROJECT LOGO -->
+<br />
+<h3 align="center">Wedding Venue Finder</h3>
 
   <p align="center">
     Full-stack wedding venue finder application that allows for search within a given range of dates.
@@ -85,15 +91,25 @@ If there are no results for the day the following is displayed:
 Otherwise results are shown in cards:
 ![result image image](images/screenshot_3.png)
 Data Shown:
--Date -_The date that venue is avaliable on in format (day year-mm--dd)_
--Image of Venue
--Capacity -_Maximum amount of people that venue allows_
--Licensed -_Displays 0 if venue is not licenced and 1 if it is (should have been changed to yes or no to be more user friendly)_
--Catering Cost -_The cost per person per day for catering_
--Weekday Price -_The price of the venue per day during the week_
--Weekend Price -_The price of the venue per day during the weekend_
--Total Bookings -_The number of times that venue has been booked before_
--Total Price -_The total cost of booking that venue on that day_ -_Calculated by multiplying catering cost by party size submitted and adding the price depending on if its a weekday or weekend_
+
+- Date
+  - The date that venue is avaliable on in format (day year-mm--dd)
+- Image of Venue
+- Capacity
+  - Maximum amount of people that venue allows
+- Licensed
+  - Displays 0 if venue is not licenced and 1 if it is (should have been changed to yes or no to be more user friendly)
+- Catering Cost
+  - The cost per person per day for catering
+- Weekday Price
+  - The price of the venue per day during the week
+- Weekend Price
+  - The price of the venue per day during the weekend
+- Total Bookings
+  - The number of times that venue has been booked before
+- Total Price
+  - The total cost of booking that venue on that day
+  - Calculated by multiplying catering cost by party size submitted and adding the price depending on if its a weekday or weekend
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
