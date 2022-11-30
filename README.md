@@ -105,7 +105,7 @@ The search form has form validation for the following:
 <br />
 If there are no results for that day the following is displayed:
 <br />
-
+&nbsp;
 
 <p align="center">
   <img src="images/screenshot_3.png" alt="no result image"/>
