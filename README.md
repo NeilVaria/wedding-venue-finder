@@ -104,7 +104,7 @@ The search form has form validation for the following:
 
 <br />
 If there are no results for that day the following is displayed:
-
+<br />
 <p align="center">
   <img src="images/screenshot_3.png" alt="no result image"/>
 </p>
@@ -117,7 +117,7 @@ Otherwise results are shown in cards:
 </p>
 <br />
 
-Data Shown:
+The card data shown:
 - Date
   - *The date that venue is avaliable on in format (day year-mm--dd)*
 - Image of Venue
