@@ -56,9 +56,12 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://wedding-finder.neilvaria.com)
-Coursework that acheived an 88% score.  
-Hosted on Vercel. Had to configure Vercel and project to run PHP on server end as is not natively supported by Vercel. Compressed images, as to not exceed free file size limit of Vercel and to allow page to load quicker. Using subdomain of neilvaria.com, where my portfolio is hosted.  
-Written in PHP and javascript. Using bootstrap for frontend. Ajax is used to dynamically update content when querying the database for results.  
+Coursework that acheived an 88% score.
+
+Hosted on Vercel. Had to configure Vercel and project to run PHP on server end as is not natively supported by Vercel. Compressed images, as to not exceed free file size limit of Vercel and to allow page to load quicker. Using subdomain of neilvaria.com, where my portfolio is hosted.
+
+Written in PHP and javascript. Using bootstrap for frontend. Ajax is used to dynamically update content when querying the database for results.
+
 MySQL database is hosted on a personal server at home, managed with mySQL workbench. Wrote a python program to generate more dates avaliable for booking from 2022-2025 as database originally used only contained data up until 2022.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -77,7 +80,8 @@ MySQL database is hosted on a personal server at home, managed with mySQL workbe
 ### Using the search form to generate results.
 
 ![search form image](images/screenshot_1.png)
-Form Validation for:
+
+The search form has form validation for the following:
 
 - Start Date
   - Input must be filled
