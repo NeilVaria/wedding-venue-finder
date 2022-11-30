@@ -80,10 +80,12 @@ MySQL database is hosted on a personal server at home, managed with mySQL workbe
 ### Using the search form to generate results.
 
 
-![search form image](images/screenshot_1.png)
+<p align="center">
+  <img src="image/screenshot_1.png" alt="search form image"/>
+</p>
 <br />
-The search form has form validation for the following:
 
+The search form has form validation for the following:
 - Start Date
   - *Input must be filled*
   - *Date must be current date or after current date*
@@ -103,15 +105,21 @@ The search form has form validation for the following:
 
 If there are no results for that day the following is displayed:
 
-![no result image](images/screenshot_3.png)
+<p align="center">
+  <img src="image/screenshot_3.png" alt="no result image"/>
+</p>
+<br />
 <br />
 
 Otherwise results are shown in cards:
 
-![result image image](images/screenshot_2.png)
+<p align="center">
+  <img src="image/screenshot_2.png" alt="results image"/>
+</p>
 <br />
-Data Shown:
+<br />
 
+Data Shown:
 - Date
   - *The date that venue is avaliable on in format (day year-mm--dd)*
 - Image of Venue
