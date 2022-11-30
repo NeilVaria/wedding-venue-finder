@@ -27,8 +27,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
-<br />
-<h3 align="center">Wedding Venue Finder</h3>
+<h1 align="center">Wedding Venue Finder</h1>
 
   <p align="center">
     Full-stack wedding venue finder application that allows to search for avaliable venues within a given range of dates.
