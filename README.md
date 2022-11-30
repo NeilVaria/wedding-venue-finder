@@ -72,10 +72,10 @@ MySQL database is hosted on a personal server at home, managed with mySQL workbe
 
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
 - [![JQuery][jquery.com]][jquery-url]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+<br />
 
 ## Usage
 
