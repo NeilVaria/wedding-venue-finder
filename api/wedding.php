@@ -242,7 +242,7 @@
   <!-- Footer -->
 
   <footer class="bg-dark text-center text-light text-lg-start">
-    <div class="text-center p-3">© 2022 Copyright: Varia's Venues</div>
+    <div class="text-center p-3">© 2022 Copyright: Neil Varia</div>
   </footer>
 
   <!-- jquery -->
